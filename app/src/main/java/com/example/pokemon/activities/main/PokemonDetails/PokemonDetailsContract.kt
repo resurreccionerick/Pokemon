@@ -6,6 +6,7 @@ interface PokemonDetailsContract {
     interface View {
         fun showDetails(details: PokemonDetails)
         fun showMessage(msg: String)
+        fun setUpRecyclerView()
     }
 
     interface Presenter {

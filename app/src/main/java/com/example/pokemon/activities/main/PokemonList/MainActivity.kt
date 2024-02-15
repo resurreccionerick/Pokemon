@@ -18,11 +18,7 @@ class MainActivity : AppCompatActivity(), MainContract.View {
 
     companion object {
         const val POKEMON_ID = "pokemonID"
-        const val POKEMON_NAME = "pokemonName"
-        const val POKEMON_PIC = "pokemonPic"
-        const val POKEMON_WEIGHT = "pokemonWeight"
-        const val POKEMON_HEIGHT = "pokemonHeight"
-        const val POKEMON_TYPE = "pokemonType"
+
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
